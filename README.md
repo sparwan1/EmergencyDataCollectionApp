@@ -6,9 +6,11 @@
 
 ## Demo/Screenshots
 
-![Welcome Screen](EmergencyDataCollectionApp/assets/images/welcome.png)
-![Main Menu](EmergencyDataCollectionApp/assets/images/main_menu.png)
-![Report Form](EmergencyDataCollectionApp/assets/images/report_form.png)
+<div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
+  <img src="assets/images/welcome.png" alt="Welcome Screen" style="width: 30%; height: auto;">
+  <img src="assets/images/main_menu.png" alt="Main Menu" style="width: 30%; height: auto;">
+  <img src="assets/images/report_form.png" alt="Report Form" style="width: 30%; height: auto;">
+</div>
 
 ## Tech Stack
 
