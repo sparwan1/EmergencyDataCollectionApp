@@ -7,20 +7,48 @@
 ## Demo/Screenshots
 
 <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
-  <img src="assets/images/welcome.png" alt="Welcome Screen" style="width: 30%; height: auto;">
-  <img src="assets/images/main_menu.png" alt="Main Menu" style="width: 30%; height: auto;">
-  <img src="assets/images/report_form.png" alt="Report Form" style="width: 30%; height: auto;">
+  <img src="assets/images/welcome.png" alt="Welcome Screen" style="width: 24%; height: auto;">
+  <img src="assets/images/main_menu.png" alt="Main Menu" style="width: 24%; height: auto;">
+  <img src="assets/images/report_form.png" alt="Report Form" style="width: 24%; height: auto;">
+  <img src="assets/images/export_report.png" alt="Export Report" style="width: 24%; height: auto;">
 </div>
 
 ## Tech Stack
 
-- **Frontend:** React Native, Expo
-- **Backend:** Node.js, Express
-- **State Management:** Jotai
-- **UI Components:** NativeBase, Gluestack UI
-- **Database:** SQLite (via expo-sqlite)
-- **Testing:** Jest, @testing-library/react-native
-
+- **Frontend Framework:**
+  - React Native: The core mobile framework for cross-platform development
+  - Expo: Used for simplified React Native development and deployment
+- **UI Libraries:**
+  - NativeBase: UI component library providing pre-built components
+  - Gluestack UI: Modern UI component library with theming capabilities
+  - React Native Elements: Used for specific components like MultiSelect
+  - Galio Framework: Used for additional UI components
+- **Navigation:**
+  - React Navigation: Including Stack, Drawer, and Tab navigators
+  - React Native Tab View: For tab-based navigation in report screens
+- **State Management:**
+  - Jotai: Atomic state management library for React
+  - AsyncStorage: For persistent local storage
+- **Database:**
+  - SQLite (expo-sqlite): Local database for storing reports offline
+- **Device Features:**
+  - expo-location: Accessing device GPS
+  - expo-camera: Camera functionality
+  - expo-image-picker: For selecting images from the gallery
+  - expo-file-system: For file operations
+  - expo-media-library: For accessing and saving to the device's media library
+  - expo-sharing: For sharing files externally
+- **Testing:**
+  - Jest: Testing framework
+  - @testing-library/react-native: For testing React components
+- **Development Tools:**
+  - ESLint: For code linting with universe/native configuration
+  - Babel: For JavaScript transpilation
+  - Prettier: For code formatting
+  - Patch Package: For patching dependencies
+- **Build/Deployment:**
+  - EAS (Expo Application Services): For building and publishing the app
+  - expo-splash-screen: For customizing the app's splash screen
 ## Installation and Setup
 
 
@@ -65,7 +93,6 @@ Navigation: Navigation setup using React Navigation located in the src/navigatio
 - **State Management:** Managed using Jotai atoms located in the src/atoms directory.
 Utilities: Helper functions and constants located in the src/utils directory.
 
-- **Backend:** Node.js and Express for handling API requests and server-side logic.
 
 ## Workflows and Testing
 
